@@ -1,0 +1,165 @@
+body {
+    background-color: #161616;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: #252525;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: #222222 ;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+    padding: 5px 15px;
+    color: #000000 !important;
+    letter-spacing: 2px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border-color: #010101;
+}
+
+.navbar-toggler-icon {
+    background-color: #000000;
+}
+
+body {
+    margin-bottom: 100px; /* Ajuste conforme necessário */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cccccc !important;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 310px); /* Subtrai a altura do footer e a margem superior */
+    margin-top: 200px;
+    padding: 30px;
+}
+
+.card {
+    border: none;
+    background-color: #333333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.651);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+
+.form-control {
+    border: 1px solid #414040;
+    border-radius: 5px;
+    background-color: #2b2a2a;
+    color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #ff8000;
+    box-shadow: 0 0 0 0.2rem rgb(255, 128, 0);
+}
+
+.btn-primary {
+    background-color: #fa9109b2;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff8000;
+}
+
+.footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h4 {
+    color: #ff7f00;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #ff7f00;
+}
+
+.footer hr {
+    border-color: #444444;
+}
+
+.container-fluid.bg-light.py-5 {
+    background-color: #222222 !important; /* Altera a cor de fundo da aba de notícias */
+    padding-top: 5rem; /* Mantém o mesmo espaçamento no topo */
+    padding-bottom: 5rem; /* Mantém o mesmo espaçamento na parte inferior */
+}
+
+.container-fluid.bg-light.py-5 .card {
+    background-color: transparent !important; /* Garante que o fundo das cards dentro da aba de notícias também seja transparente */
+}
+
+@media (max-width: 991.98px) {
+    .dropdown-menu {
+        border: none;
+         padding: 30px;
+        background-color: transparent;
+    }
+}
