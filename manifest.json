@@ -26,7 +26,7 @@
         "src": "icons/image4.png",
         "sizes": "144x144",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any"
       },
       {
         "src": "icons/image5.png",
