@@ -92,7 +92,7 @@
 
         <!-- Lista de jogos -->
         <div id="gameList">
-            <!-- Aqui serão exibidos os jogos conforme a pesquisa/filtro -->
+            <!-- Os jogos serão renderizados aqui -->
         </div>
     </div>
 
@@ -175,25 +175,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Fecha o menu dropdown quando um item é clicado
-            const dropdownMenu = document.querySelector('.dropdown-menu');
-            dropdownMenu.addEventListener('click', function(event) {
-                event.stopPropagation();
-            });
-
-            // Fecha o menu dropdown quando clicar fora dele
-            window.addEventListener('click', function() {
-                dropdownMenu.classList.remove('show');
-            });
-
-            // Abre o menu dropdown ao clicar no botão
-            const dropdownToggle = document.querySelector('.dropdown-toggle');
-            dropdownToggle.addEventListener('click', function() {
-                dropdownMenu.classList.toggle('show');
-            });
-        });
-
         // Simulação de dados de jogos
         const gamesData = [
             { name: "Milwaukee Bucks vs Boston Celtics", location: "Arena Fiserv Forum", date: "2024-04-01" },
