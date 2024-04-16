@@ -6,13 +6,15 @@
       "src": "icons/512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any",
+      "maskable": true
     },
     {
       "src": "icons/144.png",
       "sizes": "144x144",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any",
+      "maskable": true
     }
   ],
   "start_url": "/index.html",
